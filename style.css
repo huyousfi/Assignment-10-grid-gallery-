@@ -4,16 +4,21 @@ body{
     text-align: center;
 }
 .navbar{
-    display: flex;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    padding: 10px 50px;
+    padding: 10px 30px;
     color: wheat;
 }
 .navbar .menu{
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 60px;
+}
+.navbar .logo{
+    
 }
 
 .menu li a{
